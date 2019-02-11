@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0CB6D71FBABC610061FF0F /* Loot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CB6D61FBABC610061FF0F /* Loot.cpp */; };
+		0A0CB6D91FBB4A800061FF0F /* joe.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0CB6D81FBB4A800061FF0F /* joe.png */; };
+		0A5D0E011FB6172800E863A0 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D0E001FB6172800E863A0 /* bullet.png */; };
+		0A5D0E041FB6266D00E863A0 /* Magnet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D0E031FB6266D00E863A0 /* Magnet.cpp */; };
+		0AD1BCCA1FAEF75300FAD766 /* pacman.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD1BCC91FAEF75300FAD766 /* pacman.png */; };
+		0AE1C4711FB7F44400A8632B /* GUI_Text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C46C1FB7F44300A8632B /* GUI_Text.cpp */; };
+		0AE1C4721FB7F44400A8632B /* GUI_Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C46D1FB7F44300A8632B /* GUI_Button.cpp */; };
+		0AE1C4731FB7F44400A8632B /* GUI_Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C46F1FB7F44300A8632B /* GUI_Object.cpp */; };
+		0AE1C4761FB7F4AB00A8632B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1C4741FB7F4AB00A8632B /* 2.png */; };
+		0AE1C4771FB7F4AB00A8632B /* gui.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1C4751FB7F4AB00A8632B /* gui.png */; };
+		3F216EA31FB3E88C00AEF021 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F216EA11FB3E88C00AEF021 /* Bullet.cpp */; };
+		3F52B7771FB292C900BFDE4E /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F52B7761FB292C900BFDE4E /* Enemy.cpp */; };
+		3F52B77B1FB2AC4300BFDE4E /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F52B77A1FB2AC4300BFDE4E /* Weapon.cpp */; };
+		DB16FA6A1FB7AE620032DE8D /* repeller.png in Resources */ = {isa = PBXBuildFile; fileRef = DB16FA681FB7AE620032DE8D /* repeller.png */; };
+		DB16FA6B1FB7AE620032DE8D /* attractor.png in Resources */ = {isa = PBXBuildFile; fileRef = DB16FA691FB7AE620032DE8D /* attractor.png */; };
+		DB1F92A61FAE38DD002BA52D /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB1F92A51FAE38DD002BA52D /* ResourcePath.mm */; };
+		DB1F92A91FAE38DD002BA52D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1F92A81FAE38DD002BA52D /* main.cpp */; };
+		DB1F92B01FAE38DD002BA52D /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB1F92AF1FAE38DD002BA52D /* sansation.ttf */; };
+		DB1F92B21FAE38DD002BA52D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1F92B11FAE38DD002BA52D /* icon.png */; };
+		DB1F92BA1FAE4143002BA52D /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1F92B91FAE4143002BA52D /* Object.cpp */; };
+		DB1F92BC1FAE4EC7002BA52D /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1F92BB1FAE4EC7002BA52D /* block.png */; };
+		DB1F92BF1FAE95C1002BA52D /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1F92BE1FAE95C1002BA52D /* Entity.cpp */; };
+		DB357B331FBB4F58003A9305 /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = DB357B321FBB4F57003A9305 /* gold.png */; };
+		DB6B98A31FB3C814000EA66A /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB6B98A21FB3C814000EA66A /* Player.cpp */; };
+		DB6B98A51FB3E943000EA66A /* gun.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6B98A41FB3E943000EA66A /* gun.png */; };
+		DB94CAE51FC3A66100C289E0 /* armCorner.png in Resources */ = {isa = PBXBuildFile; fileRef = DB94CAE41FC3A66100C289E0 /* armCorner.png */; };
+		DBDEF9CC1FBD09820065C30F /* joeFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = DBDEF9CB1FBD09820065C30F /* joeFinal.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A0CB6D51FBABBF30061FF0F /* Loot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loot.h; sourceTree = "<group>"; };
+		0A0CB6D61FBABC610061FF0F /* Loot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Loot.cpp; sourceTree = "<group>"; };
+		0A0CB6D81FBB4A800061FF0F /* joe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joe.png; sourceTree = "<group>"; };
+		0A5D0E001FB6172800E863A0 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		0A5D0E021FB620D900E863A0 /* Magnet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Magnet.h; sourceTree = "<group>"; };
+		0A5D0E031FB6266D00E863A0 /* Magnet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Magnet.cpp; sourceTree = "<group>"; };
+		0AD1BCC91FAEF75300FAD766 /* pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacman.png; sourceTree = "<group>"; };
+		0AE1C46B1FB7F44300A8632B /* GUI_Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUI_Object.h; sourceTree = "<group>"; };
+		0AE1C46C1FB7F44300A8632B /* GUI_Text.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GUI_Text.cpp; sourceTree = "<group>"; };
+		0AE1C46D1FB7F44300A8632B /* GUI_Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GUI_Button.cpp; sourceTree = "<group>"; };
+		0AE1C46E1FB7F44300A8632B /* GUI_Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUI_Button.h; sourceTree = "<group>"; };
+		0AE1C46F1FB7F44300A8632B /* GUI_Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GUI_Object.cpp; sourceTree = "<group>"; };
+		0AE1C4701FB7F44300A8632B /* GUI_Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUI_Text.h; sourceTree = "<group>"; };
+		0AE1C4741FB7F4AB00A8632B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		0AE1C4751FB7F4AB00A8632B /* gui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gui.png; sourceTree = "<group>"; };
+		3F216EA01FB3E88C00AEF021 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		3F216EA11FB3E88C00AEF021 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bullet.cpp; sourceTree = "<group>"; };
+		3F52B7761FB292C900BFDE4E /* Enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		3F52B7781FB292D300BFDE4E /* Enemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		3F52B7791FB2AC0A00BFDE4E /* Weapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		3F52B77A1FB2AC4300BFDE4E /* Weapon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Weapon.cpp; sourceTree = "<group>"; };
+		DB16FA681FB7AE620032DE8D /* repeller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repeller.png; sourceTree = "<group>"; };
+		DB16FA691FB7AE620032DE8D /* attractor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attractor.png; sourceTree = "<group>"; };
+		DB1F92A01FAE38DD002BA52D /* JoeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1F92A41FAE38DD002BA52D /* JoeGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JoeGame-Info.plist"; sourceTree = "<group>"; };
+		DB1F92A51FAE38DD002BA52D /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		DB1F92A71FAE38DD002BA52D /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		DB1F92A81FAE38DD002BA52D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DB1F92AF1FAE38DD002BA52D /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		DB1F92B11FAE38DD002BA52D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DB1F92B81FAE3A11002BA52D /* Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		DB1F92B91FAE4143002BA52D /* Object.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
+		DB1F92BB1FAE4EC7002BA52D /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		DB1F92BD1FAE9494002BA52D /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		DB1F92BE1FAE95C1002BA52D /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		DB357B321FBB4F57003A9305 /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
+		DB6B98A11FB3C59F000EA66A /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		DB6B98A21FB3C814000EA66A /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		DB6B98A41FB3E943000EA66A /* gun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gun.png; sourceTree = "<group>"; };
+		DB94CAE41FC3A66100C289E0 /* armCorner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = armCorner.png; path = ../../../../../Desktop/armCorner.png; sourceTree = "<group>"; };
+		DBDEF9CB1FBD09820065C30F /* joeFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joeFinal.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1F929C1FAE38DD002BA52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1F92961FAE38DD002BA52D = {
+			isa = PBXGroup;
+			children = (
+				DB1F92A21FAE38DD002BA52D /* JoeGame */,
+				DB1F92A11FAE38DD002BA52D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1F92A11FAE38DD002BA52D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1F92A01FAE38DD002BA52D /* JoeGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1F92A21FAE38DD002BA52D /* JoeGame */ = {
+			isa = PBXGroup;
+			children = (
+				DB1F92A51FAE38DD002BA52D /* ResourcePath.mm */,
+				DB1F92A71FAE38DD002BA52D /* ResourcePath.hpp */,
+				DB1F92A81FAE38DD002BA52D /* main.cpp */,
+				DB1F92B81FAE3A11002BA52D /* Object.h */,
+				DB1F92B91FAE4143002BA52D /* Object.cpp */,
+				DB1F92BD1FAE9494002BA52D /* Entity.h */,
+				DB1F92BE1FAE95C1002BA52D /* Entity.cpp */,
+				DB6B98A11FB3C59F000EA66A /* Player.h */,
+				DB6B98A21FB3C814000EA66A /* Player.cpp */,
+				3F52B7781FB292D300BFDE4E /* Enemy.h */,
+				3F52B7761FB292C900BFDE4E /* Enemy.cpp */,
+				3F216EA01FB3E88C00AEF021 /* Bullet.h */,
+				3F216EA11FB3E88C00AEF021 /* Bullet.cpp */,
+				3F52B7791FB2AC0A00BFDE4E /* Weapon.h */,
+				3F52B77A1FB2AC4300BFDE4E /* Weapon.cpp */,
+				0A5D0E021FB620D900E863A0 /* Magnet.h */,
+				0A5D0E031FB6266D00E863A0 /* Magnet.cpp */,
+				0A0CB6D51FBABBF30061FF0F /* Loot.h */,
+				0A0CB6D61FBABC610061FF0F /* Loot.cpp */,
+				0AE1C46E1FB7F44300A8632B /* GUI_Button.h */,
+				0AE1C46D1FB7F44300A8632B /* GUI_Button.cpp */,
+				0AE1C46B1FB7F44300A8632B /* GUI_Object.h */,
+				0AE1C46F1FB7F44300A8632B /* GUI_Object.cpp */,
+				0AE1C4701FB7F44300A8632B /* GUI_Text.h */,
+				0AE1C46C1FB7F44300A8632B /* GUI_Text.cpp */,
+				DB1F92AA1FAE38DD002BA52D /* Resources */,
+				DB1F92A31FAE38DD002BA52D /* Supporting Files */,
+			);
+			path = JoeGame;
+			sourceTree = "<group>";
+		};
+		DB1F92A31FAE38DD002BA52D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1F92A41FAE38DD002BA52D /* JoeGame-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB1F92AA1FAE38DD002BA52D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A0CB6D81FBB4A800061FF0F /* joe.png */,
+				0A5D0E001FB6172800E863A0 /* bullet.png */,
+				DB357B321FBB4F57003A9305 /* gold.png */,
+				0AD1BCC91FAEF75300FAD766 /* pacman.png */,
+				DB16FA691FB7AE620032DE8D /* attractor.png */,
+				DBDEF9CB1FBD09820065C30F /* joeFinal.png */,
+				DB94CAE41FC3A66100C289E0 /* armCorner.png */,
+				DB16FA681FB7AE620032DE8D /* repeller.png */,
+				DB6B98A41FB3E943000EA66A /* gun.png */,
+				0AE1C4741FB7F4AB00A8632B /* 2.png */,
+				0AE1C4751FB7F4AB00A8632B /* gui.png */,
+				DB1F92BB1FAE4EC7002BA52D /* block.png */,
+				DB1F92AF1FAE38DD002BA52D /* sansation.ttf */,
+				DB1F92B11FAE38DD002BA52D /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1F929F1FAE38DD002BA52D /* JoeGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1F92B51FAE38DD002BA52D /* Build configuration list for PBXNativeTarget "JoeGame" */;
+			buildPhases = (
+				DB1F929B1FAE38DD002BA52D /* Sources */,
+				DB1F929C1FAE38DD002BA52D /* Frameworks */,
+				DB1F929D1FAE38DD002BA52D /* Resources */,
+				DB1F929E1FAE38DD002BA52D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoeGame;
+			productName = JoeGame;
+			productReference = DB1F92A01FAE38DD002BA52D /* JoeGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1F92971FAE38DD002BA52D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Juan Lizarraga";
+				TargetAttributes = {
+					DB1F929F1FAE38DD002BA52D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB1F929A1FAE38DD002BA52D /* Build configuration list for PBXProject "JoeGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB1F92961FAE38DD002BA52D;
+			productRefGroup = DB1F92A11FAE38DD002BA52D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1F929F1FAE38DD002BA52D /* JoeGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1F929D1FAE38DD002BA52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB16FA6B1FB7AE620032DE8D /* attractor.png in Resources */,
+				0A5D0E011FB6172800E863A0 /* bullet.png in Resources */,
+				DB16FA6A1FB7AE620032DE8D /* repeller.png in Resources */,
+				DB357B331FBB4F58003A9305 /* gold.png in Resources */,
+				DB1F92B21FAE38DD002BA52D /* icon.png in Resources */,
+				DB1F92B01FAE38DD002BA52D /* sansation.ttf in Resources */,
+				0AE1C4771FB7F4AB00A8632B /* gui.png in Resources */,
+				0AD1BCCA1FAEF75300FAD766 /* pacman.png in Resources */,
+				0AE1C4761FB7F4AB00A8632B /* 2.png in Resources */,
+				DBDEF9CC1FBD09820065C30F /* joeFinal.png in Resources */,
+				DB1F92BC1FAE4EC7002BA52D /* block.png in Resources */,
+				DB6B98A51FB3E943000EA66A /* gun.png in Resources */,
+				0A0CB6D91FBB4A800061FF0F /* joe.png in Resources */,
+				DB94CAE51FC3A66100C289E0 /* armCorner.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB1F929E1FAE38DD002BA52D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1F929B1FAE38DD002BA52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE1C4721FB7F44400A8632B /* GUI_Button.cpp in Sources */,
+				DB1F92BF1FAE95C1002BA52D /* Entity.cpp in Sources */,
+				DB6B98A31FB3C814000EA66A /* Player.cpp in Sources */,
+				0AE1C4711FB7F44400A8632B /* GUI_Text.cpp in Sources */,
+				3F52B77B1FB2AC4300BFDE4E /* Weapon.cpp in Sources */,
+				3F216EA31FB3E88C00AEF021 /* Bullet.cpp in Sources */,
+				0AE1C4731FB7F44400A8632B /* GUI_Object.cpp in Sources */,
+				0A0CB6D71FBABC610061FF0F /* Loot.cpp in Sources */,
+				DB1F92A91FAE38DD002BA52D /* main.cpp in Sources */,
+				3F52B7771FB292C900BFDE4E /* Enemy.cpp in Sources */,
+				DB1F92A61FAE38DD002BA52D /* ResourcePath.mm in Sources */,
+				0A5D0E041FB6266D00E863A0 /* Magnet.cpp in Sources */,
+				DB1F92BA1FAE4143002BA52D /* Object.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB1F92B31FAE38DD002BA52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		DB1F92B41FAE38DD002BA52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		DB1F92B61FAE38DD002BA52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JoeGame/JoeGame-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB1F92B71FAE38DD002BA52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JoeGame/JoeGame-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ITESM.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1F929A1FAE38DD002BA52D /* Build configuration list for PBXProject "JoeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1F92B31FAE38DD002BA52D /* Debug */,
+				DB1F92B41FAE38DD002BA52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1F92B51FAE38DD002BA52D /* Build configuration list for PBXNativeTarget "JoeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1F92B61FAE38DD002BA52D /* Debug */,
+				DB1F92B71FAE38DD002BA52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1F92971FAE38DD002BA52D /* Project object */;
+}
